@@ -765,7 +765,8 @@
   
   .title-banner {
     padding: 120px 0;
-    background: linear-gradient(80.2deg, #f50057 0%, #bb6bd9 100%);
+    background: linear-gradient(80.2deg, rgb(89, 159, 201) 50%, white 100%);
+
   }
   
   .title-banner .sub-title {
@@ -860,14 +861,10 @@
   }
   
   /* footer */
-  
   .footer-calltoaction {
     padding: 100px 0;
-    background: linear-gradient(
-      101deg,
-      var(--color-pink) 20%,
-      /*var(--color-dark) 50%,*/ #bb6bd9 100%
-    );
+    background: radial-gradient(circle, var(--color-dark) 0%, rgba(89, 159, 201) 50%, var(--color-light) 100%);
+
   }
   
   .footer-calltoaction .sub-title {
